@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ravinder Nayak Guguloth - Full-Stack Developer Portfolio">
+    <meta name="keywords" content="Full-Stack Developer, Web Developer, Software Engineer, Portfolio">
+    <meta name="author" content="Ravinder Nayak Guguloth">
+    <title>Ravinder Nayak Guguloth - Full-Stack Developer</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">&lt;RN/&gt;</div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="greeting">Hi,</p>
+                    <h1>I'm <span class="name-highlight">Ravinder Nayak</span></h1>
+                    <p class="subtitle">Full-Stack Developer</p>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="btn btn-primary">Contact Me</a>
+                        <a href="#projects" class="btn btn-secondary">View Projects</a>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/ravinder-nayak" target="_blank" class="social-icon" title="LinkedIn">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.762 2.239 5 5 5h14c2.762 0 5-2.238 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                            </svg>
+                        </a>
+                        <a href="https://github.com/ravindernayak" target="_blank" class="social-icon" title="GitHub">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                        <a href="mailto:ravindernaikg023@gmail.com" class="social-icon" title="Email">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <!-- Replace this placeholder with your actual profile image -->
+                        <div class="profile-placeholder">
+                            <img src="images/profile.jpg" alt="Ravinder Nayak" style="display:none;" onload="this.style.display='block'; this.parentElement.querySelector('svg').style.display='none';">
+                            <svg width="200" height="200" viewBox="0 0 200 200" fill="none">
+                                <circle cx="100" cy="100" r="100" fill="rgba(255,255,255,0.1)"/>
+                                <path d="M100 100C116.569 100 130 86.5685 130 70C130 53.4315 116.569 40 100 40C83.4315 40 70 53.4315 70 70C70 86.5685 83.4315 100 100 100Z" fill="rgba(255,255,255,0.3)"/>
+                                <path d="M140 160C140 137.909 122.091 120 100 120C77.9086 120 60 137.909 60 160H140Z" fill="rgba(255,255,255,0.3)"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a motivated Computer Science Engineering student with a passion for building scalable web applications 
+                        and solving complex problems. Currently pursuing my B.Tech at Keshav Memorial Institute of Technology, 
+                        I bring strong analytical thinking and a commitment to continuous learning.
+                    </p>
+                    <p>
+                        My expertise spans full-stack development, from designing responsive user interfaces to architecting 
+                        robust backend systems. I'm eager to contribute to innovative projects and grow alongside industry 
+                        professionals.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Technologies</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Commitment</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">∞</div>
+                        <div class="stat-label">Learning</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category fade-in">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">C++</span>
+                    </div>
+                </div>
+                <div class="skill-category fade-in">
+                    <h3>Web Technologies</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">Bootstrap</span>
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">Node.js</span>
+                    </div>
+                </div>
+                <div class="skill-category fade-in">
+                    <h3>Databases</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">NoSQL</span>
+                    </div>
+                </div>
+                <div class="skill-category fade-in">
+                    <h3>Core CS Fundamentals</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">DSA</span>
+                        <span class="skill-tag">OOPs</span>
+                        <span class="skill-tag">DBMS</span>
+                        <span class="skill-tag">CN</span>
+                        <span class="skill-tag">OS</span>
+                    </div>
+                </div>
+                <div class="skill-category fade-in">
+                    <h3>Tools & Platforms</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Kubernetes</span>
+                        <span class="skill-tag">Jenkins</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card fade-in">
+                    <div class="project-number">01</div>
+                    <div class="project-info">
+                        <h3>KMIT Clubs Hub</h3>
+                        <p class="project-description">
+                            A comprehensive full-stack web application designed for efficient college club and event management. 
+                            Features role-based authentication, RESTful API architecture, and a responsive user interface built 
+                            with modern web technologies.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">Node.js</span>
+                            <span class="tech-badge">Express.js</span>
+                            <span class="tech-badge">MongoDB</span>
+                            <span class="tech-badge">JavaScript</span>
+                            <span class="tech-badge">Bootstrap</span>
+                            <span class="tech-badge">HTML/CSS</span>
+                        </div>
+                        <a href="https://club-management-system-1-bgjg.onrender.com/index1.html" target="_blank" class="project-link">
+                            View Live Project →
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-timeline">
+                <div class="education-item fade-in">
+                    <h3 class="education-degree">Bachelor of Technology</h3>
+                    <p class="education-school">Computer Science Engineering</p>
+                    <p class="education-school">Keshav Memorial Institute of Technology, Hyderabad</p>
+                    <p class="education-date">July 2024 – Present</p>
+                </div>
+                <div class="education-item fade-in">
+                    <h3 class="education-degree">Diploma</h3>
+                    <p class="education-school">Computer Science Engineering</p>
+                    <p class="education-school">Government Polytechnic, Siddipet</p>
+                    <p class="education-date">August 2021 – May 2024</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item fade-in">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p><a href="mailto:ravindernaikg023@gmail.com">ravindernaikg023@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item fade-in">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p><a href="tel:+919381870144">+91 93818 70144</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item fade-in">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Hyderabad, Telangana</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 style="font-family: 'Bebas Neue', sans-serif; font-size: 2rem; margin-bottom: 2rem; letter-spacing: 0.05em;">Connect With Me</h3>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/ravinder-nayak" target="_blank" class="social-link" title="LinkedIn">LI</a>
+                        <a href="https://github.com/ravindernayak" target="_blank" class="social-link" title="GitHub">GH</a>
+                    </div>
+                    <p style="margin-top: 3rem; color: var(--text-muted); line-height: 1.8;">
+                        I'm currently seeking internship opportunities to apply my skills in real-world projects. 
+                        Whether you have a question, opportunity, or just want to connect, feel free to reach out!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Ravinder Nayak Guguloth. Designed & Developed with Passion.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>

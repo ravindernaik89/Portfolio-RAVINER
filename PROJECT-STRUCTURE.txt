@@ -1,0 +1,98 @@
+RAVINDER NAYAK PORTFOLIO - PROJECT STRUCTURE
+============================================
+
+RAVINDER-PORTFOLIO/
+│
+├── index.html                          # Main HTML file (your portfolio homepage)
+│
+├── README.md                           # Project documentation and instructions
+│
+├── .gitignore                          # Git ignore file for version control
+│
+├── css/                                # Stylesheets folder
+│   ├── styles.css                      # Main CSS file (all your styles)
+│   ├── responsive.css                  # Mobile/tablet responsive styles (optional)
+│   └── animations.css                  # Animation styles (optional)
+│
+├── js/                                 # JavaScript files
+│   ├── main.js                         # Main JavaScript functionality
+│   ├── animations.js                   # Scroll animations (optional)
+│   └── form-validation.js              # Contact form validation (optional)
+│
+├── images/                             # All images folder
+│   ├── profile.jpg                     # Your profile photo
+│   ├── hero-bg.jpg                     # Background image (optional)
+│   │
+│   ├── projects/                       # Project screenshots
+│   │   ├── kmit-clubs-screenshot-1.png
+│   │   ├── kmit-clubs-screenshot-2.png
+│   │   └── project-demo.gif
+│   │
+│   └── icons/                          # Icon files
+│       ├── github-icon.svg
+│       ├── linkedin-icon.svg
+│       └── email-icon.svg
+│
+├── assets/                             # Additional assets
+│   ├── fonts/                          # Custom fonts (if needed)
+│   │   └── custom-font.woff2
+│   │
+│   └── documents/                      # Downloadable files
+│       └── Ravinder_Nayak_Resume.pdf   # Your resume PDF for download
+│
+└── docs/                               # Documentation
+    ├── DEPLOYMENT.md                   # How to deploy your portfolio
+    └── CUSTOMIZATION.md                # How to customize (optional)
+
+
+WHAT TO ADD TO EACH FOLDER:
+===========================
+
+📁 CSS Folder:
+   - Put all your styling code in styles.css
+   - Optionally separate responsive and animation styles
+
+📁 JS Folder:
+   - Add your JavaScript code for interactivity
+   - Navigation scroll effects
+   - Smooth scrolling
+   - Animation triggers
+
+📁 Images Folder:
+   - Add a professional profile photo
+   - Screenshots of your projects (KMIT Clubs Hub)
+   - Icons for social media links
+   - Any background images
+
+📁 Assets/Documents:
+   - Upload your resume PDF for visitors to download
+   - Add any certificates or additional documents
+
+📁 Docs:
+   - Keep the deployment guide
+   - Add customization notes if needed
+
+
+NEXT STEPS:
+===========
+
+1. Copy the portfolio.html code into index.html
+2. Separate CSS into css/styles.css
+3. Separate JavaScript into js/main.js
+4. Add your profile photo to images/
+5. Add project screenshots to images/projects/
+6. Put your resume PDF in assets/documents/
+7. Test everything locally
+8. Deploy to GitHub Pages, Netlify, or Vercel
+
+
+FILE SIZES RECOMMENDATION:
+==========================
+
+✓ Profile Photo: 500KB max (optimize with TinyPNG)
+✓ Project Screenshots: 300KB each max
+✓ Resume PDF: 1MB max
+✓ Icons: Use SVG format (smallest size)
+
+
+TOTAL PROJECT SIZE: ~5-10MB (optimized)
